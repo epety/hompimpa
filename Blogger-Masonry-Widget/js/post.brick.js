@@ -64,7 +64,7 @@
 	$.fn.bloggerMasonry = function(o) {
 		o = $.extend({
 			viewMode: "summary", // Widget mode? "summary" || "thumbnail"
-			homePage: "http://dte-feed.blogspot.com", // Your blog homepage
+			homePage: "http://khoaiansang.com", // Your blog homepage
 			numPosts: 10, // Number of posts to display per request
 			numChars: 270, // Length of summary post
 			showThumbnails: true, // Nothing! Still in draft...
