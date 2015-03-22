@@ -65,33 +65,33 @@
 		o = $.extend({
 			viewMode: "summary", // Widget mode? "summary" || "thumbnail"
 			homePage: "http://khoaiansang.com", // Your blog homepage
-			numPosts: 10, // Number of posts to display per request
-			numChars: 270, // Length of summary post
+			numPosts: 9, // Number of posts to display per request
+			numChars: 225, // Length of summary post
 			showThumbnails: true, // Nothing! Still in draft...
 			squareImage: false, // Set thumbnail mode to square
-			newTabLink: false, // Auto open links in new window/tab?
+			newTabLink: yes, // Auto open links in new window/tab?
 			columnWidth: 200, // Width of the image (also will resize the brick item width)
 			subHeaderText: ["Diposting oleh ", "<br>pada "], // `Posted by FOO on BAR`
 			monthNames: [ // Month array
-				"Januari",
-				"Februari",
-				"Maret",
+				"January",
+				"February",
+				"March",
 				"April",
-				"Mei",
-				"Juni",
-				"Juli",
-				"Agustus",
+				"May",
+				"Jun",
+				"July",
+				"August",
 				"September",
-				"Oktober",
+				"October",
 				"November",
-				"Desember"
+				"December"
 			],
 			commentLabel: "&nbsp;", // Label text after total comments
 			navText: {
-				prev: "Sebelumnya", // Previous navigation label
-				next: "Berikutnya", // Next navigation label
+				prev: "Previous", // Previous navigation label
+				next: "Next", // Next navigation label
 				disabled: "&times;", // Disabled navigation label
-				data: ["Halaman ", " dari "] // `Page # of #`
+				data: ["Page ", " dari "] // `Page # of #`
 			},
 			postCategory: null, // Change to a label name to sort posts by specific label
 			fallbackThumb: "http://hompimpa.googlecode.com/svn/trunk/Blogger-Masonry-Widget/img/meee.png", // Fallback thumbnail for posts without images
