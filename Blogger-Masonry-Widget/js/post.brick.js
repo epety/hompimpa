@@ -65,11 +65,11 @@
 		o = $.extend({
 			viewMode: "summary", // Widget mode? "summary" || "thumbnail"
 			homePage: "http://khoaiansang.com", // Your blog homepage
-			numPosts: 10, // Number of posts to display per request
+			numPosts: 9, // Number of posts to display per request
 			numChars: 225, // Length of summary post
 			showThumbnails: true, // Nothing! Still in draft...
 			squareImage: false, // Set thumbnail mode to square
-			newTabLink: yes, // Auto open links in new window/tab?
+			newTabLink: true, // Auto open links in new window/tab?
 			columnWidth: 200, // Width of the image (also will resize the brick item width)
 			subHeaderText: ["Diposting oleh ", "<br>pada "], // `Posted by FOO on BAR`
 			monthNames: [ // Month array
