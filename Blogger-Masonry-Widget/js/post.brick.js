@@ -209,7 +209,7 @@
 							skeleton += (o.numChars > 0) ? '<p>' + postContent + '</p>' : skeleton;
 							skeleton += '</div>';
 							skeleton += '<span class="json_post-footer clearfix">';
-							skeleton += '<span class="json_comment">' + commentText[0] + ' ' + o.commentLabel + '</span>';
+							/*skeleton += '<span class="json_comment">' + commentText[0] + ' ' + o.commentLabel + '</span>';*/
 							skeleton += '<a class="json_more" href="' + postUrl + '"' + tg + '>+</span>';
 							skeleton += '</span>';
 							skeleton += '</div>';
