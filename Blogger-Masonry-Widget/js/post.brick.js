@@ -110,7 +110,7 @@
 					duration: 1000,
 					easing: null
 				},
-				isFitWidth: true,
+				isFitWidth: false,
 				gutterWidth: 0,
 				isRTL: false
 			}
