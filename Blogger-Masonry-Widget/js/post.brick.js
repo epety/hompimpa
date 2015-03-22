@@ -65,7 +65,7 @@
 		o = $.extend({
 			viewMode: "summary", // Widget mode? "summary" || "thumbnail"
 			homePage: "http://khoaiansang.com", // Your blog homepage
-			numPosts: 9, // Number of posts to display per request
+			numPosts: 10, // Number of posts to display per request
 			numChars: 225, // Length of summary post
 			showThumbnails: true, // Nothing! Still in draft...
 			squareImage: false, // Set thumbnail mode to square
