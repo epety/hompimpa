@@ -91,7 +91,7 @@
 				prev: "Previous", // Previous navigation label
 				next: "Next", // Next navigation label
 				disabled: "&times;", // Disabled navigation label
-				data: ["Page ", " dari "] // `Page # of #`
+				data: ["Page ", " of"] // `Page # of #`
 			},
 			postCategory: null, // Change to a label name to sort posts by specific label
 			fallbackThumb: "http://hompimpa.googlecode.com/svn/trunk/Blogger-Masonry-Widget/img/meee.png", // Fallback thumbnail for posts without images
