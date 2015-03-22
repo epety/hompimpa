@@ -71,7 +71,7 @@
 			squareImage: false, // Set thumbnail mode to square
 			newTabLink: true, // Auto open links in new window/tab?
 			columnWidth: 200, // Width of the image (also will resize the brick item width)
-			subHeaderText: ["Diposting oleh ", "<br>pada "], // `Posted by FOO on BAR`
+			subHeaderText: ["Author ", "<br> "], // `Posted by FOO on BAR`
 			monthNames: [ // Month array
 				"January",
 				"February",
@@ -201,7 +201,7 @@
 							skeleton += '<div style="width:' + o.columnWidth + 'px;" class="json_post json_summary-mode">';
 							skeleton += '<h3 class="json_post-title"><a href="' + postUrl + '"' + tg + '>' + postTitle + '</a></h3>';
 							skeleton += '<span class="json_sub-header">';
-							skeleton += '<span class="json_author">' + o.subHeaderText[0] + postAuthor + '</span> ';
+							/*skeleton += '<span class="json_author">' + o.subHeaderText[0] + postAuthor + '</span> ';*/
 							skeleton += o.subHeaderText[1] + '<abbr class="json_post-date">' + dd + ' ' + o.monthNames[parseInt(dm,10)-1] + ' ' + dy + '</abbr>';
 							skeleton += '</span>';
 							skeleton += '<div class="json_post-body">';
