@@ -219,7 +219,7 @@
 							skeleton += '<figcaption>';
 							skeleton += '<strong class="json_caption"><a href="' + postUrl + '"' + tg + '>' + postTitle + '</a></strong>';
 							skeleton += '<span class="json_post-date">' + dd + ' ' + o.monthNames[parseInt(dm,10)-1] + ' ' + dy + '</span> ';
-							skeleton += '<span class="json_comment">' + commentText[0] + ' ' + o.commentLabel + '</span>';
+							/*skeleton += '<span class="json_comment">' + commentText[0] + ' ' + o.commentLabel + '</span>';*/
 							skeleton += '</figcaption>';
 							skeleton += '</figure>';
 						}
