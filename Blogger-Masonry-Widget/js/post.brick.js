@@ -200,10 +200,10 @@
 						if (o.viewMode == "summary") {
 							skeleton += '<div style="width:' + o.columnWidth + 'px;" class="json_post json_summary-mode">';
 							skeleton += '<h3 class="json_post-title"><a href="' + postUrl + '"' + tg + '>' + postTitle + '</a></h3>';
-							skeleton += '<span class="json_sub-header">';
+							/*skeleton += '<span class="json_sub-header">';*/
 							/*skeleton += '<span class="json_author">' + o.subHeaderText[0] + postAuthor + '</span> ';*/
-							skeleton += o.subHeaderText[1] + '<abbr class="json_post-date">' + dd + ' ' + o.monthNames[parseInt(dm,10)-1] + ' ' + dy + '</abbr>';
-							skeleton += '</span>';
+							/*skeleton += o.subHeaderText[1] + '<abbr class="json_post-date">' + dd + ' ' + o.monthNames[parseInt(dm,10)-1] + ' ' + dy + '</abbr>';*/
+							/*skeleton += '</span>';*/
 							skeleton += '<div class="json_post-body">';
 							skeleton += (o.showThumbnails) ? '<a class="json_img-container loading" href="' + postUrl + '"' + tg + '><img src="' + postThumbnail + '" alt="' + postTitle + '"/></a>' : skeleton;
 							skeleton += (o.numChars > 0) ? '<p>' + postContent + '</p>' : skeleton;
